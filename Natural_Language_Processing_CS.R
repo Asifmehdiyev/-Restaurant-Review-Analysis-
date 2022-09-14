@@ -1,10 +1,10 @@
 # **********  Import necessary libraries *******
-library(data.table)
-library(tidyverse)
-library(text2vec)
-library(caTools)
-library(glmnet)
-library(inspectdf)
+library(data.table) # ( For working with dataset)
+library(tidyverse) # (Transforming and manipulating data)
+library(text2vec) # (Natural Language Processing library)
+library(caTools) # (Statistical functions library)
+library(glmnet) # (Used for Lasso and Elastic Net Regularized Generalized Models)
+library(inspectdf) # (Inspection, Comparison and visualization of data frames)
 
 # ***** Import 'nlpdata' and get familiarized with it. ******
 df <- read.csv('nlpdata.csv')
